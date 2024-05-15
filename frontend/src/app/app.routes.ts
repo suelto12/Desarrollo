@@ -3,9 +3,9 @@ import { HomeComponent } from './dashboard/pages/home/home.component';
 import { ProgramsComponent } from './dashboard/pages/programs/programs.component';
 import { PagesComponent } from './dashboard/pages/pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { HomeAdminComponent } from './dashboard/admin/pages/home-admin/home-admin.component';
 import { LoginComponent } from './auth/login/login.component';
 import { DetailsProgramsComponent } from './dashboard/pages/details-programs/details-programs.component';
+import { AdminHomeComponent } from './dashboard/admin/admin-home/admin-home/admin-home.component';
 
 export const routes: Routes = [
   {//RAÍZ
@@ -37,7 +37,7 @@ export const routes: Routes = [
       },
       {// RUTAS DE ADMINISTRACIÓN
         path: 'admin',
-        component: HomeAdminComponent
+        component: AdminHomeComponent
       }
     ]
   },
