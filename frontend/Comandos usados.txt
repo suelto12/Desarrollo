@@ -10,6 +10,7 @@ ng g component dashboard/pages/home --inline-style --skip-tests
 ng g component dashboard/pages/programs --inline-style --skip-tests
 
 ng g component dashboard/admin/pages/home-admin --inline-style --skip-tests
+ng g component dashboard/admin/admin-home/admin-home --inline-style --skip-tests
 
 ng g component auth --inline-style --skip-tests --inline-template
 ng g component auth/login --inline-style --skip-tests

@@ -6,6 +6,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './auth/login/login.component';
 import { DetailsProgramsComponent } from './dashboard/pages/details-programs/details-programs.component';
 import { AdminHomeComponent } from './dashboard/admin/admin-home/admin-home/admin-home.component';
+import { AdminProgramsComponent } from './dashboard/admin/admin-programs/admin-programs.component';
+import { AdminDetailsComponent } from './dashboard/admin/admin-details/admin-details.component';
 
 export const routes: Routes = [
   {//RAÍZ
@@ -38,6 +40,14 @@ export const routes: Routes = [
       {// RUTAS DE ADMINISTRACIÓN
         path: 'admin',
         component: AdminHomeComponent
+      },
+      {// RUTAS DE ADMINISTRACIÓN
+        path: 'programsadm',
+        component: AdminProgramsComponent
+      },
+      {// RUTAS DE ADMINISTRACIÓN
+        path: 'detailsadm',
+        component: AdminDetailsComponent
       }
     ]
   },
